@@ -1,0 +1,94 @@
+html{
+  width: 100vw;
+  height: 100vh;  
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    height: 100%;
+    background-color: #EEEEEE;
+}
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.side-menu{
+    height: 100%;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content:center;
+}
+.content{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.row{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    font-size: 2em;
+}
+.active{
+    background-color: firebrick;
+}
+button{
+    border:none;
+    outline:none;
+}
+.start-button{
+    margin: 0px 5px;
+    border-radius: 5px;
+    padding:10px 25px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 1.3em;
+    width: 60%;
+
+}
+.stop-button{
+    margin: 0px 5px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding:10px 25px;
+    background-color: firebrick;
+    color: cornsilk;
+    width: 60%;
+}
+input[type="number"]{
+    font-size: 1.2em;
+    padding:5px;
+    border-radius: 5px;
+    border:solid 2px #202020;
+}
+.hide{
+    display: none;
+}
+label{
+    font-size: 1.1em;
+    color:#202020;
+    font-weight: 500;
+}
